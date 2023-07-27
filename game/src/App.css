@@ -48,3 +48,8 @@
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  .shape {
+    max-width: 90vw; /* For smaller screens, reduce the maximum width to fit the screen */
+  }
+}
